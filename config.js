@@ -14,6 +14,11 @@ catch (e)
 
 const defaults = {
     "BOT_TOKEN" : "" ,
+    "DBNAME" : "",
+    "DBUSER" : "",
+    "DBPASS" : "",
+    "DBHOST" : "",
+    "COMMANDPREFIX":"",
 }
 for (const key in defaults)
 {
